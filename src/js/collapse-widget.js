@@ -32,7 +32,7 @@ export default class CollapseWidget {
 
   setListeners() {
     this.button.addEventListener('click', () => {
-      if (this.collapseBlock.classList.contains('start-aniamtion')) {
+      if (this.collapseBlock.classList.contains('start-animation')) {
         return;
       }
 
